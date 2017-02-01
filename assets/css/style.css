@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    background-color:  #ffffff;
+    border-color: #dddddd;
+}
+
+h1{
+    padding:0 1em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 85px;
+    border-bottom: 5px;
+    position: relative;
+    top: 100px;
+    margin-top: 10px;
+}
+
+h2{
+    color: #4aaaa5;
+}
+
+footer{
+    background-color: #666666;
+    color: #D3D3D3;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 10px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-top: 8px solid #4aaaa5;
+    margin-bottom: 0;
+}
+
+.header_container{
+    height: 85px;
+    border-bottom: 5px;
+    background-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-color:#D3D3D3;
+    padding: 0 1em;
+    position: relative;
+    top: -100px;
+}
+
+.header{
+    float: right;
+    line-height: 25px;
+    margin: 30px 0;
+    padding: 0 10px;
+    font-family: "Georgia";
+    font-size: 20px;
+    color: #898989;
+    border-right: 1px solid #898989;
+    display: inline-block;
+}
+
+.about-me{
+    background-image: url("../images/asanoha-400px.png");
+    height: 400px;
+    background-color: #E4E4E4;
+    margin-top: 0.2px;
+    padding-bottom: 100px;
+    border-top: 3px solid #D3D3D3;
+}
+
+#about-me-container{
+    height: 350px;
+    width: 50%;
+    background-color: #FFFFFF;
+    position:relative;
+    top: 40px;
+    left: 118px;
+    border-style: solid;
+    border-color:#D3D3D3;
+    padding: 10px;
+    font-family: "Arial"; 
+    padding-bottom: 50px;
+}
+
+.connect-with-me{
+    float: right;
+    width: 270px;
+    margin-right:50px;
+    margin-top: -460px;
+    height:150px;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color:#D3D3D3;
+    color: #4aaaa5;
+    text-orientation: center;
+}
+
+#headshot{
+    float: left;
+    width: 250px;
+    padding: 8px;
+}
+
+#github,
+#stackoverflow,
+#linkedin {
+    height: 50px;
+    width: 50px;
+}
+
+#social-media,
+#connect{
+    text-align: center;
+}
+
+#bio,
+#paragraph2{
+    color: #7f7e7e;
+    line-height: 2;
+}
+
+#name_box,
+#email_box{
+    font-family: "Arial";
+    color: #7f7e7e;
+    width: 90%;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message_box{
+    font-family: "Arial";
+    color: #7f7e7e;
+    width: 90%;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message,
+#name,
+#email{
+    font-family: "Arial";
+    color: #7f7e7e;
+}
+
+#submit_button{
+    padding:0 1em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 50px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 25px;
+    border-bottom: 5px;
+    top: 100px;
+    margin-top: 10px;
+}
+
+#hangman,
+#trivia-game,
+#RPS{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+}
+
+#rpg-game,
+#Rutgers{
+    height: 100px;
+    width: 150px;
+    margin-left: 250px;
+    position: relative;
+}
+
+.portfolio{
+    margin-left: 30px;
+    }
+
+#portfolio-lable{
+    border-top: 3px solid #D3D3D3;
+    }
+
+#hangman_button{
+    padding:0 1em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 150px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 25px;
+    width: 118px;
+    border-bottom: 5px;
+    top: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+#rpgbutton{
+    padding:0 1em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 150px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 25px;
+    width: 118px;
+    border-bottom: 5px;
+    top: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+#portfolio-container{
+    height: 450px;
+    width: 50%;
+    background-color: #FFFFFF;
+    position:relative;
+    top: 40px;
+    left: 118px;
+    border-style: solid;
+    border-color:#D3D3D3;
+    padding: 10px;
+    font-family: "Arial"; 
+    padding-bottom: 50px;
+}
+
+#rutgers-button{
+    padding:0 1em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 150px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 25px;
+    width: 118px;
+    border-bottom: 5px;
+    top: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.about-me2{
+    background-image: url("../images/asanoha-400px.png");
+    background-color: #E4E4E4;
+    margin-top: 0.2px;
+    padding-bottom: 100px;
+    border-top: 3px solid #D3D3D3;
+}
+
+
+
+
+
+
+
+
+
